@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Catherine Wan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/cw.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="nav-wrapper">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="images/brandbig.png" alt="catherine wan">
+            </a>
+            <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
+                <ul class="navbar-nav ml-auto">
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="index.html">about</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="blog.html">blog</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="CatherineResumee.pdf" target="_blank">resume</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="#connect">connect</a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="about-wrapper">
+        <div class="heading-wrapper">
+            <h1>hi, i'm catherine!</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xxs-12">
+                <div class="profile-img-wrapper">
+                    <img src="images/colors2.png" class="img-fluid"alt="">
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="about-paragraph">
+                    <p>
+                    I'm an incoming student studying computer science and finance at the University of Waterloo.
+                    <br>
+                    <br>
+                    Who knows where I'll end up or what I'll be doing, but I'm ready to work hard, play hard, and enjoy the journey.
+                    <br>
+                    <br>
+                    In my free time, you can find me playing volleyball, snowboarding, or reading an interesting book (
+                    <a href="#connect">connect</a> with me and send a recommendation my way!).
+                    <br>
+                    <br>
+                    Head over to my <a href="blog.html">blog</a> for the real fun.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---skills section start --->
+    <div class="skills-wrapper" id="skillz">
+        <div class="skills-heading">
+            <h1>skills.</h1>
+        </div>
+
+        <div class="row">
+            <div class=" skill col-lg-4 col-md-12">
+                <div class="skill-img">
+                    <img src="images/idea.png" alt="">
+                </div>
+                <div class="skill-title">
+                    critical thinker.
+                </div>
+                <p class="skill-description">
+                    I approach challenges with an open-mind and can make clear judgements, analysis, and evaluations.
+                </p>
+            </div>
+            <div class="skill col-lg-4 col-md-12">
+                <div class="skill-img">
+                    <img src="images/leadership.png" alt="">
+                </div>
+                <div class="skill-title">
+                    leadership.
+                </div>
+                <p class="skill-description">
+                    I am an empathetic and inclusive leader who can gets things done. I like to make each experience educational and fun!
+                </p>
+            </div>
+            <div class="skill col-lg-4 col-md-12">
+                <div class="skill-img">
+                    <img src="images/conversation.png" alt="">
+                </div>
+                <div class="skill-title">
+                    communication.
+                </div>
+                <p class="skill-description">
+                    I can convey information in a clear and engaging method through writing, design, and speaking.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="connect" class="connect-container">
+        <div class="connect-heading-container">
+            <h3>connect with me.</h3>
+            <p>I'm eager to learn and grow, I'm up for any challenge. Please reach out if you could use a hard-worker on board:)</p>
+        </div>
+        <div class="icons-container">
+            <div class="icon-linkedin">
+                <a href="https://www.linkedin.com/in/catherinewan/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+            <div class="icon-email">
+                <a href="mailto:catherine.zh.wan@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-square"></i>
+                </a>
+            </div>
+            <div class="icon-github">
+                <a href="https://github.com/catherine-w" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="signature-container">
+            <p>designed and created by catherine wan ❤️</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/cw.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container1">
+        <!---nav wrapper start --->
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/brandbig.png" alt="catherine wan">
+                </a>
+                <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
+                    <ul class="navbar-nav ml-auto">
+                        <div class="nav-link-wrapper" style="padding-right: 30px;">
+                            <a href="index.html">home</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="archive.html">archive</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!---blog wrapper start --->
+        <div class="blog-container">
+            <div class="intro-container">
+                <h1>Welcome to my blog. </h1>
+                <p>Here is a collection of my thoughts from this month. have fun! <br>
+                check out the archive for all posts</p>
+            </div>
+
+            <div class="post-list">
+                <div class="post">
+                    <h4 class="title">
+                        <a href="blog/10-minute-rule.html">10 Minute Rule</a>
+                    </h4>
+                    <p class="post-date">May 24 2020</p>
+                    <p class="post-excerpt">
+                        I came across an interesting idea today in this article<sup>[1]</sup> about parkinson’s law, which is the theory that "work expands so as to fill the time available for its completion." However, the interesting thing I want to talk about is this section:
+                        <br><br>
+                        <p class="post-quote">
+                            Ingvar Kamprad, the founder of IKEA, once said, “If you split your day into ten-minute increments, and you try to waste as few of those ten minute increments as possible, you’ll be amazed at what you can get done.”
+                            <br><br>
+                            For small tasks, use what I call Ingvar’s Rule-assume each task will take no more than ten minutes to complete, then begin. This includes meetings and phone calls: for some reason, the default time period for meetings is an hour-whether you need it or not. Often you can get just as much, if not more, done if you assume that the basic unit of time for a meeting is ten minutes.
+                        </p>
+                        <br>
+                        Resetting the basic unit to 10 minutes. I used to think that anything less than 30 minutes is such a small period of time, surely it isn’t enough to do anything productive. Also, my time-blocking practices on google calendar rely on 30-minute chunks as it’s easy to create events using drag and drop. To be honest, it’s rather difficult to customize your events to a 10-minute marker. There’s a lot of friction in implementing this 10-minute mindset. But, I believe it is worth it.
+                        <br><br>
+                        There are so many 10-minute opportunities in your life. You can easily knock out some of the stubborn items in your to do list in 10 minutes, such as cleaning your space, washing the dishes, reading an article. Instead of waiting to the nearest hour or half hour to start doing something, ask yourself if there’s anything you can knock out right now.
+                        <br><br>
+                        <span class="post-reference">
+                        References: <br>
+                        1. <a href="https://personalmba.com/parkinsons-law/">"What Is ‘Parkinson’s Law’?" by John Kaufman </a>
+                        </span>
+                    </p>
+                </div>
+                <div class="post">
+                    <h4 class="title">
+                        <a href="blog/motivation-is-overrated.html">Motivation is Overrated</a>
+                    </h4>
+                    <p class="post-date">May 22 2020</p>
+                    <p class="post-excerpt">
+                        I recently read this article<sup>[1]</sup> about why motivation is overrated. A common theme in many self-help productivity
+                        books is to “find your motivation” and the actions will come easy afterwards. Yet motivation is just a feeling
+                        that pushes you to act a certain way. A feeling. Why rely on something as unreliable as a wave of feeling that passes by?
+                        <br><br>
+                        My most valuable takeaways from this article are: <br>
+                        <p class="post-quote">
+                            "Motivation, broadly speaking, operates on the erroneous assumption
+                            that a particular mental or emotional state is necessary to complete a task."
+                            <br><br>
+                            "Discipline, by contrast, separates outwards functioning from moods and
+                            feelings and thereby ironically circumvents the problem by consistently improving them."
+                            <br><br>
+                            "In summary, motivation is trying to feel like doing stuff. Discipline is doing it even if you don’t feel like it."
+                        </p>
+                        <br>
+                        There is a huge mindset shift that lies in the quote above. If you reprogram your mind to rely on discipline rather than motivation, you will get many more things done. With motivation, you feel good before you start doing the task. With discipline, you feel great after you finish. The latter is arguably the superior choice.
+                        <br><br>
+                        Now, this isn’t meant to denounce the value that lies in the occasional spurt of motivation that you feel. By all means, take advantage of the sudden drive when it comes your way and use it to pump out some work. However, don’t rely on the erratic pattern of motivation as your only source of fuel to get work done.
+                        <br><br>
+                        A great way to start implementing this discipline-based mindset into your own lives is to write out to-do lists and exercise your discipline muscle in order to complete them each day. Don’t overestimate your abilities and write ten thousand to-dos or else you may experience burnout. Respect your deadlines and don’t use the excuse of “I’ll do it tomorrow.” After all, if you can’t respect your own deadlines, why should anyone else?
+                        <br><br>
+                        <span class="post-reference">
+                        References: <br>
+                        1. <a href="http://www.wisdomination.com/screw-motivation-what-you-need-is-discipline/?utm_campaign=Sunday%20Snippets&utm_medium=email&utm_source=Revue%20newsletter">"Screw motivation, what you need is discipline." by Widsomination </a>
+                        </span>
+                    </p>
+                </div>
+                <div class="post">
+                    <h4 class="title">
+                        <a href="blog/why-i-started-a-blog.html">Why I Started a Blog</a>
+                    </h4>
+                    <p class="post-date">May 20 2020</p>
+                    <p class="post-excerpt">
+                        Hello and welcome to my little writing corner:) Staying at home in quarantine has pushed me to try new things,
+                        so I decided to give blogging a shot. The purpose of this blog is to build a habit of doing rather than just planning.
+                        It’s through doing and failing that I’ll eventually learn and grow. <br> <br>
+
+                        What To Expect <br>
+                            - Some posts will track my journey of learning code! <br>
+                            - (starting fall 2020) updates on how university life is going<br>
+                            - stories and thoughts<br>
+                            - Whatever else I feel like writing about <br> <br>
+
+                        Overall, this is just a space for me to create and share. I hope you stick around for a fun time! <br><br>
+
+                        Cheers, <br>
+                        Catherine
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="connect" class="connect-container">
+            <div class="connect-heading-container">
+                <h3>connect with me.</h3>
+                <p>shoot me a message if you vibe with something i've said, i love to meet new people and talk about cool topics!</p>
+            </div>
+            <div class="icons-container">
+                <div class="icon-linkedin">
+                    <a href="https://www.linkedin.com/in/catherinewan/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+                <div class="icon-email">
+                    <a href="mailto:catherine.zh.wan@gmail.com" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </div>
+                <div class="icon-github">
+                    <a href="https://github.com/catherine-w" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="signature-container">
+                <p>designed and created by catherine wan ❤️</p>
+            </div>
+            <div class="nav-link-wrapper text-center" style="padding: 0;">
+                <a href="index.html" style="padding-right: 30px;">home</a>
+                <a href="archive.html">archive</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+body{
+    background-color: #fcfaf7;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-wrapper{
+    margin: 2vh 3vw;
+}
+
+.navbar{
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    color: black;
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 20%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-brand img{
+        width: 50%;
+        height: auto;
+    }
+}
+
+.nav-link-wrapper {
+    padding-left: 7%;
+    white-space: nowrap;
+
+}
+
+.nav-link-wrapper a{
+    color: rgb(140, 140, 140);
+    transition: color 0.3s;
+}
+
+.nav-link-wrapper a:hover{
+    color: #567531;
+    text-decoration: underline;
+}
+
+.active-nav-link a{
+    color: #567531 !important;
+    text-decoration: underline;
+}
+
+.about-wrapper{
+    padding: 3% 8%;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-wrapper{
+    text-align: center;
+    padding: 5vh;
+    letter-spacing: 0.1em;
+    color: #f77052;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.heading-wrapper h1{
+    font-weight: 800;
+    letter-spacing: 0.2em;
+}
+
+.about-wrapper > .row{
+    padding: 2% 5%;
+}
+
+.about-paragraph{
+    display: block;
+
+    padding: 0vh 5vw;
+}
+
+.about-paragraph p{
+    font-weight: 200;
+    line-height: 2em
+}
+
+.about-paragraph a{
+    color: #f77052;
+    text-decoration: none;
+}
+
+.about-paragraph a:hover{
+    color: #f77052;
+    text-decoration: underline;
+}
+
+.profile-img-wrapper img{
+    width: 100% \9;
+    width: 100%;
+}
+
+.skills-wrapper{
+    margin: 5vh 10vw;
+    border: 5px solid #567531;
+    padding: 5vh 3vw;
+}
+
+.skills-heading{
+    text-align: center;
+    color: #567531;
+    padding: 3vh 0;
+}
+
+.skill-img img{
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.skill-title{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2%
+}
+
+.skill{
+    padding: 2vh 3vw;
+}
+
+.connect-container{
+    margin: 5vh 10vw;
+    margin-top: 20vh;
+}
+
+.connect-heading-container{
+    text-align: center;
+    color: #f77052;
+}
+
+.connect-heading-container p{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 30vw;
+
+}
+
+.icons-container i:hover{
+    color: black;
+}
+
+i{
+    font-size: 100px;
+}
+
+.fab{
+    color: darkgrey;
+    font-size: 2em;
+}
+
+.fas{
+    color: darkgrey;
+    font-size: 2em;
+}
+
+.signature-container{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.signature-container{
+    font-weight: 300;
+}
+
+/*Blog Styles*/
+.blog-container{
+    padding: 5vh 20vw;
+}
+
+.intro-container {
+    padding-bottom: 8vh;
+}
+
+.intro-container h1{
+    color: #f77052;
+}
+/*
+.card{
+    margin: 5vh 5vw;
+    border: none;
+    background-color: #fcfaf7;
+}
+
+.card img{
+    max-width:100%;
+    height:auto;
+}
+
+.img-wrap{
+    padding: 15px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card-title a{
+    color: black;
+    text-decoration: none;
+}
+
+.card-title a:hover{
+    color: rgb(237, 152, 162);
+}
+
+.card-subtitle{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.post-title{
+    padding: 5vh 20vw;
+}
+
+.content-wrapper p{
+    line-height: 1.75;
+    font-size: 120%;
+    font-weight: 400;
+}
+*/
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    .post-content-sm {
+        padding: 5vh 8vw;
+    }
+    p{
+        line-height: 1.25;
+    }
+
+    .post-img{
+        padding: 2vh 5vw;
+        padding-bottom: 0;
+    }
+
+    .post-title{
+        padding:2vh 10vw;
+    }
+    .blog-container{
+        padding: 8vh 2vw;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+  /* For mobile phones: */
+    .post-content-lg {
+        padding: 5vh 20vw;
+    }
+
+    .post-img{
+        padding: 5vh 20vw;
+        padding-bottom: 0;
+    }
+}
+
+/*Blog Styles*/
+.title{
+    color: #f77052;
+}
+.title a{
+    color: #f77052;
+    text-decoration: none;
+}
+
+.title a:hover{
+    color: #f77052;
+    text-decoration: underline;
+}
+
+.post{
+    padding: 5vh 0;
+}
+
+.post-date{
+    font-size: smaller;
+    color: darkgrey;
+}
+
+.post-quote{
+    font-style: italic;
+    color: #636363;
+}
+
+.post-reference a{
+    color: #567531;
+    text-decoration: none;
+}
+
+.post-reference a:hover{
+    color: #3c5221;
+    text-decoration: underline;
+}
+
+.archive-list a{
+    color: #f77052;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.archive-list a:hover{
+    color: #f77052;
+    text-decoration: underline;
+}

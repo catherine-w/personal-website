@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/cw.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container1">
+        <!---nav wrapper start --->
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="index.html" class="navbar-brand">
+                    <img src="../images/brandbig.png" alt="catherine wan">
+                </a>
+                <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
+                    <ul class="navbar-nav ml-auto">
+                        <div class="nav-link-wrapper" style="padding-right: 30px;">
+                            <a href="../index.html">home</a>
+                        </div>
+                        <div class="nav-link-wrapper" style="padding-right: 30px;">
+                            <a href="../blog.html">blog</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="../archive.html">archive</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!---blog wrapper start --->
+        <div class="blog-container">
+            <div class="post">
+                <h4 class="title">
+                    <a href="blog/intro.html">Why I Started a Blog</a>
+                </h4>
+                <p class="post-date">May 20 2020</p>
+                <p class="post-excerpt">
+                    Hello and welcome to my little writing corner:) Staying at home in quarantine has pushed me to try new things,
+                    so I decided to give blogging a shot. The purpose of this blog is to build a habit of doing rather than just planning.
+                    It’s through doing and making mistakes that I’ll eventually learn and grow. <br> <br>
+
+                    What To Expect <br>
+                        - Some posts will track my journey of learning code! <br>
+                        - (starting fall 2020) updates on how university life is going<br>
+                        - stories and thoughts<br>
+                        - Whatever else I feel like writing about <br> <br>
+
+                    Overall, this is just a space for me to create and share. I hope you stick around for a fun time! <br><br>
+
+                    Cheers, <br>
+                    Catherine
+                </p>
+
+            </div>
+        </div>
+
+        <div id="connect" class="connect-container">
+            <div class="connect-heading-container">
+                <h3>connect with me.</h3>
+                <p>shoot me a message if you vibe with something i've said, i love to meet new people and talk about cool topics!</p>
+            </div>
+            <div class="icons-container">
+                <div class="icon-linkedin">
+                    <a href="https://www.linkedin.com/in/catherinewan/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+                <div class="icon-email">
+                    <a href="mailto:catherine.zh.wan@gmail.com" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </div>
+                <div class="icon-github">
+                    <a href="https://github.com/catherine-w" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="signature-container">
+                <p>designed and created by catherine wan ❤️</p>
+            </div>
+            <div class="nav-link-wrapper text-center" style="padding: 0;">
+                <a href="../index.html" style="padding-right: 30px;">home</a>
+                <a href="../blog.html" style="padding-right: 30px;">blog</a>
+                <a href="../archive.html">archive</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

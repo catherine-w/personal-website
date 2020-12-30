@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/cw.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container1">
+        <!---nav wrapper start --->
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/brandbig.png" alt="catherine wan">
+                </a>
+                <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
+                    <ul class="navbar-nav ml-auto">
+                        <div class="nav-link-wrapper" style="padding-right: 30px;">
+                            <a href="index.html">home</a>
+                        </div>
+                        <div class="nav-link-wrapper" >
+                            <a href="blog.html">back to blog</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!---blog wrapper start --->
+        <div class="blog-container">
+            <div class="archive-list">
+                <a href="blog/10-minute-rule.html">10 Minute Rule</a>
+                <span class="post-date">May 24 2020</span><br>
+                <a href="blog/motivation-is-overrated.html" >Motivation is Overrated</a>
+                <span class="post-date">May 22 2020</span><br>
+                <a href="blog/why-i-started-a-blog.html" >Why I Started Writing</a>
+                <span class="post-date">May 20 2020</span><br>
+            </div>
+
+        </div>
+
+        <div id="connect" class="connect-container">
+            <div class="connect-heading-container">
+                <h3>connect with me.</h3>
+                <p>shoot me a message if you vibe with something i've said, i love to meet new people and talk about cool topics!</p>
+            </div>
+            <div class="icons-container">
+                <div class="icon-linkedin">
+                    <a href="https://www.linkedin.com/in/catherinewan/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+                <div class="icon-email">
+                    <a href="mailto:catherine.zh.wan@gmail.com" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </div>
+                <div class="icon-github">
+                    <a href="https://github.com/catherine-w" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="signature-container">
+                <p>designed and created by catherine wan ❤️</p>
+            </div>
+            <div class="nav-link-wrapper text-center" style="padding: 0;">
+                <a href="index.html" style="padding-right: 30px;">home</a>
+                <a href="blog.html">blog</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
