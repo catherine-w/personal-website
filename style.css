@@ -7,6 +7,7 @@ body{
     margin: 2vh 3vw;
 }
 
+
 .navbar{
     font-size: 1.2em;
 }
@@ -28,7 +29,16 @@ body{
     }
 }
 
+.left-side{
+    font-size: large;
+}
+
+.right-side{
+    display: flex;
+}
+
 .nav-link-wrapper {
+    padding-left: 7%;
     padding-left: 7%;
     white-space: nowrap;
 
@@ -98,6 +108,7 @@ body{
 .profile-img-wrapper img{
     width: 100% \9;
     width: 100%;
+    border-radius: 24px;
 }
 
 .skills-wrapper{
@@ -131,7 +142,7 @@ body{
 
 .connect-container{
     margin: 5vh 10vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .connect-heading-container{
@@ -284,7 +295,7 @@ i{
 }
 
 .post{
-    padding: 5vh 0;
+    padding: 3vh 0;
 }
 
 .post-date{
@@ -316,4 +327,37 @@ i{
 .archive-list a:hover{
     color: #f77052;
     text-decoration: underline;
+}
+
+/*Project Styles*/
+.project-container{
+    padding: 5vh 20vw;
+}
+
+.project{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    border-radius: 24px;
+}
+
+.project-img{
+    padding: 10%;
+    border-radius: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-summary{
+    padding: 5%;
+}
+
+.link-to{
+    letter-spacing: 0.09em;
+    background-color: #fcfaf7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
 }

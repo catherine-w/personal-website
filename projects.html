@@ -37,8 +37,8 @@
         });
     </script>
 </head>
-<body>
 
+<body>
     <div class="nav-wrapper">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a href="#" class="navbar-brand">
@@ -49,7 +49,7 @@
             </button>
             <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
                 <ul class="navbar-nav ml-auto">
-                    <div class="nav-link-wrapper active-nav-link">
+                    <div class="nav-link-wrapper">
                         <a href="index.html">home</a>
                     </div>
 
@@ -57,7 +57,7 @@
                         <a href="blog.html">blog</a>
                     </div>
 
-                    <div class="nav-link-wrapper">
+                    <div class="nav-link-wrapper active-nav-link">
                         <a href="projects.html">projects</a>
                     </div>
 
@@ -73,85 +73,93 @@
         </nav>
     </div>
 
-    <div class="about-wrapper">
-        <div class="heading-wrapper">
-            <h1>hi, i'm catherine!</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-xxs-12">
-                <div class="profile-img-wrapper">
-                    <img src="images/catherine.jpg" class="img-fluid"alt="">
+    <!---project wrapper start *need styles--->
+    <div class="project-container">
+        <div class="row project" style="background-color: rgba(255, 140, 132, 0.411);">
+            <div class="col align-self-center">
+                    <img src="images/personal_website.png" class="img-fluid project-img" alt="" >
+            </div>
+            <div class="col project-summary" >
+                <b>Personal Website</b>
+                <br>
+                <br>
+                I created my personal website to apply my html/css and javascript knowledge to a project.
+                <br> 
+                <br>
+                <b>Tools: </b> HTML/CSS, Javascript, Bootstrap
+                <br>
+                <br>
+                <b>Role: </b> Designer + Developer
+                <br>
+                <br>
+                <div class="nav-link-wrapper link-to">
+                    <a href="https://github.com/catherine-w/personal-website"> 
+                        link to <i class="fab fa-github" style= "color: black; font-size: 1.5em;"></i>
+                    </a>
                 </div>
             </div>
-
-            <div class="col-md-8">
-                <div class="about-paragraph">
-                    <p>
-                    Hi! I'm a first year student at the University of Waterloo studying computer science and finance.
-                    <br>
-                    <br>
-                    I have a strong passion for designing effective and unique solutions to problems. I am a quick learner and work well with anyone.
-                    <br>
-                    <br>
-                    My <a href="projects.html">projects</a> include various hackathon and personal ventures such as creating this website, a web application
-                    to visualize the spread of airborne diseases, a just-for-fun chrome extension that randomizes memes, and others.
-                    <br>
-                    <br>
-                    In my free time, you can find me playing volleyball, snowboarding, or reading an interesting book (
-                    <a href="#connect">connect</a> with me and send a recommendation my way!).
-                    
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!---skills section start --->
-    <div class="skills-wrapper" id="skillz">
-        <div class="skills-heading">
-            <h1>skills.</h1>
         </div>
 
-        <div class="row">
-            <div class=" skill col-lg-4 col-md-12">
-                <div class="skill-img">
-                    <img src="images/idea.png" alt="">
-                </div>
-                <div class="skill-title">
-                    critical thinker.
-                </div>
-                <p class="skill-description">
-                    I approach challenges with an open-mind and can make clear judgements, analysis, and evaluations.
-                </p>
+        <div class="row project" style="background-color: rgba(118, 150, 79, 0.404);">
+            <div class="col align-self-center">
+                <img src="images/curetech.png" class="img-fluid project-img" alt="">
             </div>
-            <div class="skill col-lg-4 col-md-12">
-                <div class="skill-img">
-                    <img src="images/leadership.png" alt="">
+            <div class="col project-summary">
+                <b>CureTech Hackathon Project</b>
+                <br>
+                <br>
+                For NASA SpaceApps 2019, my team and I created a web application that predicts and visually depicts the spread of 
+                infectious airborne diseases based on future weather forecast and population density data gathered by NASA APIs. 
+                <br> 
+                <br>
+                <b>Tools: </b> HTML/CSS, Javascript, NASA Open APIs
+                <br>
+                <br>
+                <b>Role: </b> Researcher, Developer, Pitch Creator + Deliverer
+                <br>
+                <br>
+                <div class="nav-link-wrapper link-to">
+                    <a href="https://github.com/JekkuChen/CureTech"> 
+                        link to <i class="fab fa-github" style= "color: black; font-size: 1.5em;"></i>
+                    </a>
                 </div>
-                <div class="skill-title">
-                    leadership.
-                </div>
-                <p class="skill-description">
-                    I am an empathetic and inclusive leader who can get things done. I like to make each experience educational and fun!
-                </p>
-            </div>
-            <div class="skill col-lg-4 col-md-12">
-                <div class="skill-img">
-                    <img src="images/conversation.png" alt="">
-                </div>
-                <div class="skill-title">
-                    communication.
-                </div>
-                <p class="skill-description">
-                    I can convey information in a clear and engaging method through writing, design, and speaking.
-                </p>
             </div>
         </div>
+
+        <div class="row project" style="background-color: rgba(255, 94, 41, 0.404);">
+            <div class="col align-self-center">
+                <img src="images/chrome_extension.png" class="img-fluid project-img" alt="">
+            </div>
+            <div class="col project-summary">
+                <b>Chrome Extension</b>
+                <br>
+                <br>
+                Using HTML/CSS and Javascript, I created a simple chrome extension that generates randomized memes along with a motivational message 
+                to give the user some fun and inspiration during a long day of work at the click of a button! This was a for-fun project that 
+                was an excuse to look at memes all day.
+                <br> 
+                <br>
+                <b>Tools: </b> HTML/CSS, Javascript, jQuery
+                <br>
+                <br>
+                <b>Role: </b> Designer + Developer
+                <br>
+                <br>
+                <div class="nav-link-wrapper link-to">
+                    <a href="https://github.com/catherine-w/chrome-extension-gifs"> 
+                        link to <i class="fab fa-github" style= "color: black; font-size: 1.5em;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
     <div id="connect" class="connect-container">
         <div class="connect-heading-container">
             <h3>connect with me.</h3>
-            <p>I'm eager to learn and grow, I'm up for any challenge. Please reach out if you could use a hard-worker on board:)</p>
+            <p>shoot me a message if you vibe with something i've said, i love to meet new people and talk about cool topics!</p>
         </div>
         <div class="icons-container">
             <div class="icon-linkedin">
@@ -175,9 +183,9 @@
             <p>designed and created by catherine wan ❤️</p>
         </div>
     </div>
-
-
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
 </html>
