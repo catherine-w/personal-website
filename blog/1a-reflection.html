@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/cw.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container1">
+        <!---nav wrapper start --->
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../images/brandbig.png" alt="catherine wan">
+                </a>
+                <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
+                    <ul class="navbar-nav ml-auto">
+                        <div class="nav-link-wrapper active-nav-link">
+                            <a href="index.html">home</a>
+                        </div>
+    
+                        <div class="nav-link-wrapper">
+                            <a href="blog.html">blog</a>
+                        </div>
+    
+                        <div class="nav-link-wrapper">
+                            <a href="projects.html">projects</a>
+                        </div>
+    
+                        <div class="nav-link-wrapper">
+                            <a href="Catherine_Resume.pdf" target="_blank">resume</a>
+                        </div>
+    
+                        <div class="nav-link-wrapper" style="padding-right: 7vw;">
+                            <a href="#connect">connect</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!---blog wrapper start --->
+        <div class="blog-container">
+            <div class="nav-link-wrapper" style="padding: 0px;">
+                <a href="../blog.html">&#60;- back to blog</a>
+            </div>
+            <div class="post">
+                <h4 class="title">
+                    <a href="#">First Term Reflection</a>
+                </h4>
+                <p class="post-date">December 24 2020</p>
+                <p class="post-excerpt">
+                    As my first term of the Computing and Financial Management program at the University of Waterloo came to an end, 
+                    I’ve taken some time to look back at the last 4 months and think about important things I’ve learned. 
+                    <br><br>
+                    <b>1. You are capable of doing so much more than you think you can.</b>
+                    <br><br>
+                    THIS has got to be one of the biggest lessons I’ve learned and internalized over the last 4 months. During the first semester, I was faced with many academic challenges that I didn’t believe I could overcome. I felt especially hopeless when it came to solving math problems from our weekly assignments that looked absolutely impossible. But there was no other option other than to do everything I could to solve as much of the problem as possible. 
+                    <br><br>
+                    On Mondays when assignments were released, I would read over the questions and feel dread. Yet as I worked on the questions bit by bit each day, I would slowly make progress and feel my excitement grow as I neared a solution. Most of the time, a problem that initially seemed impossible would become solvable. 
+                    <br><br>
+                    By the last few weeks of the first term, I felt less dread and uncertainty when tackling difficult problems. I had increased confidence in myself and knew that even if a question seemed impossible at first, all I had to do was calm my mind down and try to take the first small step. 
+                    <br><br>
+         
+                    <b>2. Create structure in an unstructured world.</b>
+                    <br><br>
+                    Due to having asynchronous online classes, my default schedule was very unstructured and I relied heavily on self-discipline to maintain structure in my day-to-day life. As much as I enjoy spontaneity and ‘going with the flow’, I personally find structure to be an important backbone in maintaining my life. In the first half of the term, my sleep schedule had completely fallen apart, sleeping at 3 or 4am most nights. This was a big change given that I slept religiously at 11pm as a high schooler. To restore some order back into my life, I set a hard rule to sleep before 2am and I preplanned my weeks by allocating my weekly tasks in a spread out manner. To be honest, I only followed my rule and preplanned my weeks about 60% of the time, but I am working on improving my success rate in the next semester. 
+                    <br><br>
+
+                    <b>3. Keeping in touch with family is important.</b>
+                    <br><br>
+                    It’s very easy to get caught up in your own world when experiencing a completely new environment such as university. Part of what keeps me grounded is feeling grateful for my family that supported me throughout my journey to get to where I am today. Calling them on a weekly basis to update them about university life was one of my personal goals. 
+                    <br><br>
+                    The pandemic caused the world to slow down and made me appreciate my family much more for everything they’ve done for me. I also came across an eye-opening article written by Tim Urban about how you spend the majority of the time you’ll ever get with your parents by the time you’re 18. As a result, I’ve been trying to be more intentional with family time after moving out. 
+                    <br><br>
+                    Those were 3 out of many lessons that I’ve learned over my first 4 months in university. Although it has been challenging, the fun comes with overcoming the struggle. 
+                </p>
+
+            </div>
+        </div>
+
+        <div id="connect" class="connect-container">
+            <div class="connect-heading-container">
+                <h3>connect with me.</h3>
+                <p>shoot me a message if you vibe with something i've said, i love to meet new people and talk about cool topics!</p>
+            </div>
+            <div class="icons-container">
+                <div class="icon-linkedin">
+                    <a href="https://www.linkedin.com/in/catherinewan/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+                <div class="icon-email">
+                    <a href="mailto:catherine.zh.wan@gmail.com" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </div>
+                <div class="icon-github">
+                    <a href="https://github.com/catherine-w" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="signature-container">
+                <p>designed and created by catherine wan ❤️</p>
+            </div>
+           
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+to do:
+- write intro blurb. include link to projects.
+- fix blog page
+- write more blog posts
+- create projects page
+- images from jul 20 sunset photo shoot as the profil picture. 
+
+
+
+
+
+- double "back to blog" only for long form posts

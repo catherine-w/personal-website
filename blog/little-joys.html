@@ -4,10 +4,10 @@
     <title>Blog</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/cw.png" type="image/png">
+    <link rel="icon" href="../images/cw.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/20a118b649.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
@@ -42,19 +42,19 @@
         <!---nav wrapper start --->
         <div class="nav-wrapper">
             <nav class="navbar navbar-expand-sm navbar-light">
-                <a href="#" class="navbar-brand">
-                    <img src="images/brandbig.png" alt="catherine wan">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../images/brandbig.png" alt="catherine wan">
                 </a>
                 <button class= "navbar-toggler" data-toggle="collapse" data-target = "#navbarMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ml-auto" id=navbarMenu>
                     <ul class="navbar-nav ml-auto">
-                        <div class="nav-link-wrapper">
+                        <div class="nav-link-wrapper active-nav-link">
                             <a href="index.html">home</a>
                         </div>
     
-                        <div class="nav-link-wrapper active-nav-link">
+                        <div class="nav-link-wrapper">
                             <a href="blog.html">blog</a>
                         </div>
     
@@ -63,7 +63,7 @@
                         </div>
     
                         <div class="nav-link-wrapper">
-                            <a href="TechResume.pdf" target="_blank">resume</a>
+                            <a href="Catherine_Resume.pdf" target="_blank">resume</a>
                         </div>
     
                         <div class="nav-link-wrapper" style="padding-right: 7vw;">
@@ -76,60 +76,33 @@
 
         <!---blog wrapper start --->
         <div class="blog-container">
-            <div class="intro-container">
-                <h1>Welcome to my blog. </h1>
-                <p>Here is a collection of my thoughts from this month. have fun! <br>
-                <!---check out the archive for all posts---></p>
+            <div class="nav-link-wrapper" style="padding: 0px;">
+                <a href="../blog.html">&#60;- back to blog</a>
             </div>
+            <div class="post">
+                <h4 class="title">
+                    <a href="#">Little Joys</a>
+                </h4>
+                <p class="post-date">December 19 2020</p>
+                <p class="post-excerpt">
+                    <br>
+                    1. Sprinting down the middle of the street to see the light exhibit at a nearby park that was closing in 10 minutes.
+                    <br><br>
+                    2. Singing throwback songs at the top of our lungs on a late night.
+                    <br><br>
+                    3. Learning how to cook curry with friends and enjoying the masterpiece (not really :p) of a dinner that we made.
+                    <br><br>
+                    4. Fangirling over an extremely well-written, concise, and eloquent proof written by a mutual acquaintance for one of our math assignments.
+                    <br><br>
+                    5. Eating a fancy sushi dinner and buying lottery tickets in celebration of a friend’s 18th birthday!
+                    <br><br><br>
+                    When life becomes overwhelming, as it inevitably will at some points, it's nice to slow down by remembering the little joys that occur in your everyday life. 
+                    
+                    
+                    
+                </p>
 
-            <div class="post-list">
-                <div class="post">
-                    <h4 class="title">
-                        <a href="blog/1a-reflection.html">First Term Reflection</a>
-                    </h4>
-                    <p class="post-date">December 24 2020</p>
-                    <p class="post-excerpt">
-                        Looking back at the lessons I've learned during my first term of university.
-                    </p>
-                </div>
-                <div class="post">
-                    <h4 class="title">
-                        <a href="blog/little-joys.html">Little Joys</a>
-                    </h4>
-                    <p class="post-date">December 19 2020</p>
-                    <p class="post-excerpt">
-                        A list of 5 mundane moments that were very memorable.
-                    </p>
-                </div>
-                <div class="post">
-                    <h4 class="title">
-                        <a href="blog/10-minute-rule.html">10 Minute Rule</a>
-                    </h4>
-                    <p class="post-date">May 24 2020</p>
-                    <p class="post-excerpt">
-                        Recognizing the value of 10-minute increments in your life and taking advantage of them rather than wasting it. 
-                    </p>
-                </div>
-                <div class="post">
-                    <h4 class="title">
-                        <a href="blog/motivation-is-overrated.html">Motivation is Overrated</a>
-                    </h4>
-                    <p class="post-date">May 22 2020</p>
-                    <p class="post-excerpt">
-                        Exercise your discipline muscle rather than relying on spontaneous bursts of motivation to get your work done.
-                    </p>
-                </div>
-                <div class="post">
-                    <h4 class="title">
-                        <a href="blog/why-i-started-a-blog.html">Why I Started a Blog</a>
-                    </h4>
-                    <p class="post-date">May 20 2020</p>
-                    <p class="post-excerpt">
-                        Read about why I started writing in my blog!
-                    </p>
-                </div>
             </div>
-
         </div>
 
         <div id="connect" class="connect-container">
@@ -158,6 +131,7 @@
             <div class="signature-container">
                 <p>designed and created by catherine wan ❤️</p>
             </div>
+           
         </div>
 
     </div>
